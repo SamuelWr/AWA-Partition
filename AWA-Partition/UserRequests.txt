@@ -1,0 +1,3 @@
+﻿Store last set of groups, don't repeat any.
+
+Large groups are hidden, wrap or resize?
