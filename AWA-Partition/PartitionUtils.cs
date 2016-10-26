@@ -51,12 +51,10 @@ namespace AWA_Partition
         private static void Randomize(IList<Person> lista)
         {
             Random rand = new Random();
-            //TODO: this is not properly randomizing!
-            // should only swap forward
-            // swap(i,i+rand.Next(lista.Count -i),lista);
+            
             for (int i = 0; i < lista.Count; i++)
             {
-                swap(i, rand.Next(lista.Count),lista);
+                swap(i, rand.Next(i,lista.Count),lista);
             }
         }
 
